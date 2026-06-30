@@ -9,15 +9,8 @@ __pycache__/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Data files (don't push raw data to GitHub)
+# Raw data (large or sensitive, don't push)
 data/raw/
-*.csv
-*.xlsx
-*.pkl
-*.h5
-
-# Model files
-*.joblib
 
 # Environment variables
 .env
