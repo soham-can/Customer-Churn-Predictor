@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files (don't push raw data to GitHub)
+data/raw/
+*.csv
+*.xlsx
+*.pkl
+*.h5
+
+# Model files
+*.joblib
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
